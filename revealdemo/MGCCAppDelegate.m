@@ -37,7 +37,7 @@
     }
      */
     
-    _revealSideViewController.options = PPRevealSideOptionsKeepOffsetOnRotation|PPRevealSideOptionsShowShadows;
+    [_revealSideViewController setOption:PPRevealSideOptionsKeepOffsetOnRotation];
 
     
     self.window.rootViewController = _revealSideViewController;
